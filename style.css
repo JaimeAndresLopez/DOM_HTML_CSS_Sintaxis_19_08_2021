@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin:0;
+    padding:0;
+    color: aqua;
+}
+.titulo{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diasContainer {
+    display: flex;
+    justify-content: center;
+}
+.dias{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 0.1em;
+    text-overflow: clip;
+}
